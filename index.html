@@ -1,12 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Introduction to CSS Lab</title>
-    <!-- Your code here! -->
-  </head>
-
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styled Div</title>
+  <link rel="stylesheet" href="./style.css"> <!-- Link to style.css using a relative path -->
+  <style>
+    /* CSS for the div */
+    div.styled-div {
+      width: 700px;            /* Set width to 700px */
+      margin: auto;            /* Center the div horizontally */
+      font-family: 'Helvetica Neue', sans-serif; /* Set font-family to 'Helvetica Neue' */
+      background-color: white; /* Set background to white */
+      padding: 30px;           /* Set padding to 30px */
+    }
+  </style>
+</head>
+<body>
+  <!-- The div with the specified styles -->
+  <div class="styled-div">
+    <!-- Your content here -->
 
     <div>
       <h1 id='main-header'>How Does Writing CSS Differ From Writing HTML?</h1>
@@ -32,6 +45,8 @@
       <p>When we write CSS, we focus on aesthetic and display considerations. When we write HTML, we focus on structure, hierarchy, and meaning.</p>
     </div>
 
-  </body>
-
+  </div>
+</body>
 </html>
+
+
